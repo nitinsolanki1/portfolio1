@@ -20,7 +20,7 @@ function App() {
 
 const projectArr = [
   {
-    githubLink : "/",
+    githubLink : "https://github.com/nitinsolanki1/DesiFood",
     viewLink : "/",
     img  : "../public/desifood.png",
      title : "Desifood" ,
@@ -30,8 +30,8 @@ const projectArr = [
   },
   {
 
-    githubLink : "/",
-    viewLink : "/",
+    githubLink : "https://github.com/nitinsolanki1/portfolio1",
+    viewLink : "https://nitinsolanki1.github.io/portfolio1",
     title : "Portfolio website" ,
     img:"../public/portfolio.png",
     desc : `this portfolio website is built by using reactJS with a animation library called gsap with features like 
