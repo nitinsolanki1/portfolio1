@@ -25,16 +25,16 @@ const  handelMode = ()=>{
     <div className="collapse  navbar-collapse" id="navbarSupportedContent">
       <ul className={`navbar-nav   ms-auto me-5 mb-2 mb-lg-0`}>
       <li className="nav-item ">
-          <Link className={`nav-link  text-${current===1 ? "warning" : md.color} `} aria-current="page" to="/" >Home</Link>
+          <Link className={`nav-link  text-${current===1 ? "warning" : md.color} `} aria-current="page" to="/portfolio1" >Home</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link   text-${current===2 ? "warning" :  md.color} `}  to="/about" >About</Link>
+          <Link className={`nav-link   text-${current===2 ? "warning" :  md.color} `}  to="/portfolio1/about" >About</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link   text-${current===3 ? "warning" :  md.color} `} aria-current="/page" to="/contact" >Contact</Link>
+          <Link className={`nav-link   text-${current===3 ? "warning" :  md.color} `} aria-current="/page" to="/portfolio1/contact" >Contact</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link  text-${current===4 ? "warning" :  md.color} `} aria-current="page" to="/projects" >Projects</Link>
+          <Link className={`nav-link  text-${current===4 ? "warning" :  md.color} `} aria-current="page" to="/portfolio1/projects" >Projects</Link>
         </li>
         <div style={{alignContent:"center"}} className="ms-5 text-light  nav-item form-check form-switch"> 
                   <input onClick={handelMode} className={` bg-warning  form-check-input `} type="checkbox" />

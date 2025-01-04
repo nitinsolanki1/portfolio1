@@ -8,17 +8,6 @@ import { useRef } from "react"
 
       const page1Ref = useRef()
   useGSAP(()=>{
-  
-    // gsap.to(".tap",{
-    //     x:-1000,
-    //     duration:5,
-    //     delay:0.2,
-    //   ScrollTrigger:{
-    //     trigger:'.tap',
-    //     markers:true  
-    //   }
-    // })
-
     page1Ref.current.addEventListener("mouseenter",(e)=>{
       gsap.to('.cursor',{
         height:100,
@@ -29,7 +18,6 @@ import { useRef } from "react"
         duration:0.2,
       })
   })
-
       page1Ref.current.addEventListener("mousemove",(e)=>{
         gsap.to('.cursor',{
           duration:0.5,
