@@ -45,7 +45,7 @@ import { useRef } from "react"
   return (
     <div className={`page  text-${md.color}`} ref={page1Ref} >
       <div className="cursor"></div>
-    <Header current={1} md={md} setmd={setmd}/>
+    <Header current={2} md={md} setmd={setmd}/>
 
         <div className="conten container  d-flex justift-content-center align-items-center flex-columns"> 
         
