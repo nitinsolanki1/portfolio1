@@ -52,10 +52,10 @@ const projectArr = [
 
       <div className='app' style={{backgroundColor :md.background}}>
       <Routes>
-        <Route exact path='/test' element={<Home md={md} projectArr={projectArr} setmd={setmd} />} />
-        <Route exact path='/test/about' element={<About  md={md} />} />
-        <Route exact path='/test/contact' element={<Contact md={md} setmd={setmd} />} />
-        <Route exact path='/test/projects' element={<Projects md={md} projectArr={projectArr} setmd={setmd} />} />
+        <Route exact path='/' element={<Home md={md} projectArr={projectArr} setmd={setmd} />} />
+        <Route exact path='/about' element={<About  md={md} />} />
+        <Route exact path='/contact' element={<Contact md={md} setmd={setmd} />} />
+        <Route exact path='/projects' element={<Projects md={md} projectArr={projectArr} setmd={setmd} />} />
       </Routes>
     </div>
   )
