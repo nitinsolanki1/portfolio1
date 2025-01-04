@@ -15,8 +15,8 @@ const ProjectCard = ({md,title,img,githubLink="/",viewLink="/",desc}) => {
               </p>
 
 
-              <a href={viewLink} className="btn px-4 btn-warning ">view</a>
-              <a href={githubLink} className="ms-2  px-4  btn btn-warning ">github</a>
+              <a href={viewLink} target="black" className="btn px-4 btn-warning ">view</a>
+              <a href={githubLink} target="black" className="ms-2  px-4  btn btn-warning ">github</a>
             </div>
 
           
