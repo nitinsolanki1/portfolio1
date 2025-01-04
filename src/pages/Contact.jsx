@@ -69,7 +69,7 @@ export const Contact = ({md,setmd}) => {
               </div>
               <div>
                 <h4 className={`mb-3 text-${md.color}`}>Address</h4>
-                <x className="mb-0 text-secondary">Junagadh Gujarat,india</x>
+                <p className="mb-0 text-secondary">Junagadh Gujarat,india</p>
               </div>
             </div>
             <div className="row mb-5">

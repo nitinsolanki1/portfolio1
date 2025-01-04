@@ -22,7 +22,7 @@ const projectArr = [
   {
     githubLink : "/",
     viewLink : "/",
-    // img  : "../public/default.webp",
+    img  : "../public/desifood.png",
      title : "Desifood" ,
      desc : `Desifood is an online food ordering website build on a mern stack which has a features like Authentication
              login, register, cart and much more. you can order food,add it into cart , see all your orders`
@@ -33,7 +33,7 @@ const projectArr = [
     githubLink : "/",
     viewLink : "/",
     title : "Portfolio website" ,
-    // img:"../public/portfolio.png",
+    img:"../public/portfolio.png",
     desc : `this portfolio website is built by using reactJS with a animation library called gsap with features like 
     dark mode and also have a little bit animation that i know`
     },
